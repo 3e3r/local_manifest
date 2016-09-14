@@ -6,7 +6,6 @@
   <project name="OSPREY-N/android_device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="github"  revision="cm-14.0" />
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-14.0" />
   <project name="Alberto97/android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="github"  revision="cm-14.0-light" />
-  <project name="CyanogenMod/android_external_bson" path="external/bson" remote="github" />
-  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" />  
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" /> 
+  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.0" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.0" />
 </manifest>
