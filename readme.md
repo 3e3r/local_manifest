@@ -18,7 +18,7 @@ CM-14.0 for Moto G 2015  (OSPREY)
 ### Initializing Repo ###
 ```bash
     $ repo init -u https://github.com/CyanogenMod/android.git -b staging/cm-14.0
-    $ curl --create-dirs -L -o .repo/local_manifest/cm-14.0.xml -O -L https://raw.githubusercontent.com/OSPREY-N/local_manifest/cm-14.0/cm-14.0.xml
+    $ curl --create-dirs -L -o .repo/local_manifests/cm-14.0.xml -O -L https://raw.githubusercontent.com/OSPREY-N/local_manifest/master/cm-14.0.xml
 ```
 ### For sync: ###
 ```bash
