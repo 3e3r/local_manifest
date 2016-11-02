@@ -1,6 +1,6 @@
 LOCAL_MANIFEST
 ========================
-CM-14.0 for Moto G 2015  (OSPREY)
+CM-14.1 for MSM8916 Family
 
 ### Installing Repo ###
 ```bash
@@ -17,8 +17,8 @@ CM-14.0 for Moto G 2015  (OSPREY)
 
 ### Initializing Repo ###
 ```bash
-    $ repo init -u https://github.com/CyanogenMod/android.git -b cm-14.0
-    $ curl --create-dirs -L -o .repo/local_manifests/cm-14.0.xml -O -L https://raw.githubusercontent.com/OSPREY-N/local_manifest/master/cm-14.0.xml
+    $ repo init -u https://github.com/CyanogenMod/android.git -b cm-14.1
+    $ curl --create-dirs -L -o .repo/local_manifests/cm-14.1.xml -O -L https://raw.githubusercontent.com/MSM8916/local_manifest/master/cm-14.1.xml
 ```
 ### For sync: ###
 ```bash
@@ -26,8 +26,9 @@ CM-14.0 for Moto G 2015  (OSPREY)
 ```
 ### To build for your device.. ###
 ```bash
-    $ build/envsetup.sh
-    $ brunch device_name_here
+    $ . build/envsetup.sh
+    $ breakfast device_name_here
+    $ mka bacon
 ```
 
 
