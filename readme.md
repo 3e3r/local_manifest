@@ -1,6 +1,5 @@
 LOCAL_MANIFEST
 ========================
-CM-14.1 for MSM8916 Family
 
 ### Installing Repo ###
 ```bash
@@ -17,8 +16,8 @@ CM-14.1 for MSM8916 Family
 
 ### Initializing Repo ###
 ```bash
-    $ repo init -u https://github.com/CyanogenMod/android.git -b cm-14.1
-    $ curl --create-dirs -L -o .repo/local_manifests/cm-14.1.xml -O -L https://raw.githubusercontent.com/MSM8916/local_manifest/master/cm-14.1.xml
+    $ repo init -u https://github.com/AOKP/platform_manifest.git -b nougat
+    $ curl --create-dirs -L -o .repo/local_manifests/cm-14.1.xml -O -L https://raw.githubusercontent.com/MSM8916/local_manifest/aokp/cm-14.1.xml
 ```
 ### For sync: ###
 ```bash
