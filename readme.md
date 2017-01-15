@@ -17,7 +17,7 @@ LOCAL_MANIFEST
 ### Initializing Repo ###
 ```bash
     $ repo init -u https://github.com/AOKP/platform_manifest.git -b nougat
-    $ curl --create-dirs -L -o .repo/local_manifests/cm-14.1.xml -O -L https://raw.githubusercontent.com/MSM8916/local_manifest/aokp/cm-14.1.xml
+    $ curl --create-dirs -L -o .repo/local_manifests/cm-14.1.xml -O -L https://raw.githubusercontent.com/MSM8916/local_manifest/aokp-msm8916/cm-14.1.xml
 ```
 ### For sync: ###
 ```bash
